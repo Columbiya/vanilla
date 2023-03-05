@@ -1,0 +1,63 @@
+*:before,
+*:after,
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+    font-family: "Open Sans", sans-serif;;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    padding: 0;
+}
+
+@import "styles/header";
+@import "styles/more";
+@import "styles/slider";
+@import "styles/tabs";
+@import "styles/send-form";
+@import "styles/footer";
+@import "styles/nav";
